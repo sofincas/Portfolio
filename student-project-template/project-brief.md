@@ -1,9 +1,9 @@
 # Project Brief
 
-**Student:** [Your Name]  
-**Handle:** @[your-github-username]  
+**Student:** [Sofia Londoño]  
+**Handle:** @[Sofincas]  
 **Course:** Web Design 2025 · Fall  
-**Date:** [Fill in date - Week 2]
+**Date:** [2 febrero- Week 2]
 
 ---
 
@@ -11,15 +11,15 @@
 
 ### What are you building?
 
-<!-- Describe your project in 2-3 sentences -->
+<!-- portafolio personal de diseño/ilustración para mostrar proyectos que he realizado tanto personales como para clientes-->
 
 ### Who is it for?
 
-<!-- Define your target audience -->
+<!-- Clientes para que conozcan mi trabajo -->
 
 ### Why does it matter?
 
-<!-- Explain the purpose and value of your project -->
+<!-- es importante para mostrar mi trabajo de diseño/ilustración y poder tener una recopilación de diferentes trabajos para poder mostrarlos al publico -->
 
 ---
 
@@ -34,19 +34,19 @@
 
 ### Accessibility Goals
 
-- [ ] Semantic HTML structure
-- [ ] Proper heading hierarchy
-- [ ] Alt text for images
-- [ ] Keyboard navigation support
-- [ ] Color contrast compliance
-- [ ] Screen reader compatibility
+- [x] Semantic HTML structure
+- [x] Proper heading hierarchy
+- [x] Alt text for images
+- [x] Keyboard navigation support
+- [x] Color contrast compliance
+- [x] Screen reader compatibility
 
 ### Responsive Design Strategy
 
-- [ ] Mobile-first approach
-- [ ] Flexible grid system
-- [ ] Scalable typography
-- [ ] Optimized images
+- [x] Mobile-first approach
+- [x] Flexible grid system
+- [x] Scalable typography
+- [x] Optimized images
 - [ ] Touch-friendly interactions
 
 ---
@@ -55,9 +55,9 @@
 
 ### Key Sections/Pages
 
-1.
-2.
-3.
+1. Homepage (hero + intro): breve presentación, CTA a portafolio y contacto.
+2. Galería de proyectos: grid modular con tarjetas filtrables (título, rol, tags).
+3. Página de proyecto (case study): galería de imágenes optimizadas, proceso breve y CTA de contacto.
 
 ### Content Sources
 
@@ -77,6 +77,10 @@
 
 <!-- Describe your aesthetic approach -->
 
+#### Decisiones concretas
+- **Layout (decisión):** Grid modular responsive (mobile-first) con tarjetas que muestran imagen principal, título, rol/cliente y una línea de descripción; en escritorio usar 2–3 columnas, en móvil 1 columna. Quick-view/modal para ampliar sin perder la posición en la galería. Esta decisión respeta la estrategia de accesibilidad y enfoque mobile-first en `project-brief.md`.
+- **Contenido (decisión):** Cada proyecto incluirá: título, rol/cliente, año, tags (3 max), 1–2 líneas de contexto y 3–6 imágenes optimizadas (WebP/AVIF). Incluir llamada a la acción clara para contacto/encargos. Estas piezas aseguran contexto para potenciales clientes y cumplen los objetivos de accesibilidad y claridad.
+
 ### Color Palette
 
 <!-- List your main colors -->
@@ -87,7 +91,11 @@
 
 ### Inspiration/References
 
-<!-- List 2-3 websites or designs that inspire your approach -->
+<!-- https://postcards.mono.studio/
+https://www.bigdirty.agency/
+https://www.orlionstudio.com/
+https://www.joyzhong.com/
+https://adriannehuang.format.com/ -->
 
 ---
 
