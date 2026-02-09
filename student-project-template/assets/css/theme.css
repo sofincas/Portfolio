@@ -1,0 +1,11 @@
+/* Tipografía */
+:root {
+  --fuente-serif: 'Roca', serif;
+  --fuente-sans-serif: 'Montserrat', sans-serif;
+
+  /* Paleta de color */
+  --color-principal: #213b30;
+  --color-secundario: #8d8d6d;
+  --color-fondo: #fffde9;
+  --color-acento: #42271a;
+}
