@@ -15,7 +15,7 @@
 
 ### Who is it for?
 
-<!-- Clientes para que conozcan mi trabajo -->
+<!-- Clientes para que conozcan mi trabajo de diseño e ilustración -->
 
 ### Why does it matter?
 
@@ -65,8 +65,8 @@
 
 ### Multilingual Considerations
 
-- Primary language:
-- Secondary language (optional):
+- Primary language: español
+- Secondary language (optional): ingles
 - Translation strategy:
 
 ---
@@ -84,10 +84,16 @@
 ### Color Palette
 
 <!-- List your main colors -->
+ --color-principal: #213b30;
+  --color-secundario: #8d8d6d;
+  --color-fondo: #fffde9;
+  --color-acento: #42271a;
 
 ### Typography
 
 <!-- What fonts/typeface approach will you use? -->
+--fuente-serif: 'Roca', serif;
+  --fuente-sans-serif: 'Montserrat', sans-serif;
 
 ### Inspiration/References
 
@@ -103,8 +109,8 @@ https://adriannehuang.format.com/ -->
 
 ### Week 4 Goals
 
-- [ ] Functional homepage
-- [ ] Basic responsive layout
+- [x] Functional homepage
+- [x] Basic responsive layout
 - [ ] Core content in place
 - [ ] Accessible markup
 

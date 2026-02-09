@@ -145,7 +145,7 @@ _Example: A portfolio showcasing my graphic design work with a focus on sustaina
 
 [Write your project's core concept here—1-2 sentences]
 
----
+un portafolio que muestre mi trabajo de diseño y de ilustracion con las ilustraciones como protagonistas
 
 ### Target Audience
 
@@ -154,7 +154,7 @@ _Example: Potential clients looking for a designer who specializes in environmen
 
 [Describe your target audience]
 
----
+clientes potenciales que busquen una diseñadora/ilustradora que se especialice en ilustracion editorial, diseño textil e identidad visual
 
 ### Key Message
 
@@ -163,7 +163,7 @@ _Example: I want them to see me as a thoughtful, detail-oriented designer who ca
 
 [Your key message]
 
----
+--- que vean que soy una diseñadora orientada a los detalles, a mantener un diseño limpio sin comprometer la identidad visual de los diseños/ilustraciones pero que a la vez tenga una estetica divertida y joven.
 
 ### Visual Direction
 
@@ -172,7 +172,7 @@ _Example: Clean, modern, with earthy tones (greens, browns, off-white). Lots of 
 
 [Describe your visual direction]
 
----
+--- moderna y limpia, colores tierra, que las imagenes sean lo principal, un estetica juvenil y fresca
 
 ### Technical Goals
 
