@@ -93,7 +93,10 @@
 
 <!-- What fonts/typeface approach will you use? -->
 --fuente-serif: 'Roca', serif;
+<link rel="stylesheet" href="https://use.typekit.net/iec0uzf.css">
   --fuente-sans-serif: 'Montserrat', sans-serif;
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 
 ### Inspiration/References
 

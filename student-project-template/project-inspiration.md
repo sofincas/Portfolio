@@ -172,7 +172,7 @@ _Example: Clean, modern, with earthy tones (greens, browns, off-white). Lots of 
 
 [Describe your visual direction]
 
---- moderna y limpia, colores tierra, que las imagenes sean lo principal, un estetica juvenil y fresca
+--- moderna y limpia, colores tierra, que las imagenes sean lo principal, un estetica juvenil y fresca, formas organicas y que llamen la atencion con leves animaciones
 
 ### Technical Goals
 
