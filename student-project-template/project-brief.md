@@ -92,8 +92,8 @@
 ### Typography
 
 <!-- What fonts/typeface approach will you use? -->
---fuente-serif: 'Roca', serif;
-<link rel="stylesheet" href="https://use.typekit.net/iec0uzf.css">
+--fuente-serif: 'Lora', serif;
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   --fuente-sans-serif: 'Montserrat', sans-serif;
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
