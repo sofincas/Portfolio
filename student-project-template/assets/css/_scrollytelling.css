@@ -13,6 +13,9 @@
 	align-items: center;
 	justify-content: center;
 	background: var(--gradient-hero);
+	background-image: url(https://ik.imagekit.io/Sol/images/portada%20portafolio.jpg?updatedAt=1770643750009
+);
+background-size: 90%;
 	text-align: center;
 	padding: var(--space-2xl);
 }
