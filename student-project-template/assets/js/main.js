@@ -100,3 +100,30 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
 
 console.log('✅ Scrollytelling initialized');
 console.log(`📊 Observing ${document.querySelectorAll('[data-observe]').length} sections`);
+
+// ===== LIGHTBOX FOR GALLERY =====
+// Simple modal to show larger image + title when gallery item clicked
+(function() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxTitle = document.getElementById('lightbox-title');
+    const closeBtn = lightbox.querySelector('.lightbox-close');
+    
+    document.querySelectorAll('.gallery-item img').forEach(img => {
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            lightboxTitle.textContent = img.alt || '';
+            lightbox.classList.add('active');
+        });
+    });
+    
+    function hideLightbox() {
+        lightbox.classList.remove('active');
+    }
+    
+    closeBtn.addEventListener('click', hideLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) hideLightbox();
+    });
+})();

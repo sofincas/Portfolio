@@ -1,0 +1,162 @@
+/* ============================================
+   MODULE: _components.css
+   ============================================
+   PEDAGOGICAL NOTE: Components = reusable UI pieces
+   (header, footer, buttons, cards). Each block is
+   self-contained. In larger projects, one file per
+   component: _header.css, _footer.css, _button.css
+   ============================================ */
+
+/* ===== HEADER & NAVIGATION ===== */
+header {
+    background: #fffde9;
+	top: 0;
+	z-index: 100;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+}
+
+header .logo img {
+    width: 320px;       /* tamaño visible */
+    max-width: 900px;   /* opcional, para evitar que el logo se vuelva demasiado grande en pantallas muy anchas */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0;         
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #b07c7c;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+
+/* ===== FOOTER ===== */
+footer {
+	background-color: var(--color-bg-light);
+	padding: var(--space-3xl) 0 var(--space-xl);
+	margin-top: var(--space-4xl);
+	border-top: 1px solid var(--color-border-light);
+}
+
+footer p {
+	font-size: var(--font-size-sm);
+	color: var(--color-text-muted);
+	margin-bottom: var(--space-sm);
+}
+
+footer a {
+	color: var(--color-text-secondary);
+	transition: color var(--transition-fast);
+}
+
+footer a:hover {
+	color: var(--color-primary);
+}
+
+/* ===== BUTTON COMPONENTS ===== */
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--space-sm);
+	padding: var(--space-md) var(--space-xl);
+	font-weight: var(--font-weight-semibold);
+	border-radius: var(--radius-md);
+	transition: all var(--transition-base);
+	cursor: pointer;
+	text-decoration: none;
+	border: 2px solid transparent;
+}
+
+.btn-primary {
+	background-color: var(--color-primary);
+	color: white;
+}
+
+.btn-primary:hover {
+	background-color: var(--color-primary-hover);
+	transform: translateY(-2px);
+	box-shadow: var(--shadow-lg);
+	text-decoration: none;
+}
+
+.btn-secondary {
+	background-color: transparent;
+	color: var(--color-primary);
+	border-color: var(--color-primary);
+}
+
+.btn-secondary:hover {
+	background-color: var(--color-primary);
+	color: white;
+	text-decoration: none;
+}
+
+.btn-ghost {
+	background-color: transparent;
+	color: var(--color-text-primary);
+}
+
+.btn-ghost:hover {
+	background-color: var(--color-bg-light);
+	text-decoration: none;
+}
+
+/* ===== CARD COMPONENTS ===== */
+.card {
+	background-color: var(--color-bg);
+	border: 1px solid var(--color-border-light);
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	transition: all var(--transition-base);
+}
+
+.card:hover {
+	box-shadow: var(--shadow-lg);
+	transform: translateY(-4px);
+	border-color: var(--color-border-medium);
+}
+
+.card-title {
+	font-size: var(--font-size-xl);
+	margin-bottom: var(--space-md);
+}
+
+.card-content {
+	color: var(--color-text-secondary);
+}
+
+/* ===== ADDITIONAL COMPONENTS ===== */
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: var(--space-md);
+}
+
+.site-title {
+	margin: 0;
+	font-size: var(--font-size-2xl);
+}
+
+.lead {
+	font-size: var(--font-size-lg);
+	line-height: var(--line-height-relaxed);
+	color: var(--color-text-primary);
+	font-weight: var(--font-weight-medium);
+}
