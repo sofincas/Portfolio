@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Portfolio de ilustración - WEB ATELIER (UDIT) - Historias que se despliegan mientras scrolleas" />
+		<meta name="author" content="[Tu Nombre]" />
+		<title>Mi Portfolio</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<a href="#main" class="skip-link">Saltar al contenido</a>
+<header>
+        <div class="header-container">
+			<div class="logo">
+            <img src="https://ik.imagekit.io/Sol/images/Logo-01.png" alt="Logo de Sofía Londoño">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#hero">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#work">work</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+		<!-- Hero Section -->
+		<div class="hero" id="hero">
+			<div>
+				<h1> Sofía Londoño</h1>
+				<p>Diseñadora gráfica e ilustradora<br />Portfolio de Ilustración</p>
+				<div class="scroll-indicator">↓ Descubre mi trabajo ↓</div>
+			</div>
+		</div>
+		<!-- Main Content -->
+		<main id="main">
+			<!-- Chapter 1: About Me -->
+		<section class="story-section chapter-1" id="about" data-observe>
+				<div class="story-content">
+					<img src="https://ik.imagekit.io/Sol/images/foto%20sofia%20london%CC%83o.png" alt="Foto de Sofía Londoño">
+					<p class="text-large">
+						Diseñadora e Ilustradora, enfocada en crear historias y composiciones vibrantes, Mi trabajo explora la fantasia y el folklore combinando tecnicas digitales y tradicionales.
+					</p>
+					<!-- 
+					 <div class="stat-display">
+						<div class="stat-item">
+							<span class="stat-number">3+</span>
+							<span class="stat-label">Años de Experiencia</span>
+						</div>
+						<div class="stat-item">
+							<span class="stat-number">50+</span>
+							<span class="stat-label">Proyectos Completados</span>
+						</div>
+						<div class="stat-item">
+							<span class="stat-number">10+</span>
+							<span class="stat-label">Clientes Satisfechos</span>
+						</div>
+					</div> 
+					--> 
+			</section>
+
+			<!-- Chapter 2: My Work -->
+			<section class="story-section chapter-2" id="work" data-observe>
+				<div class="story-content">
+					<h2>Mis Proyectos</h2>
+
+				<div class="gallery">
+					<div class="gallery-item">
+						<img src="https://ik.imagekit.io/Sol/images/Ilustraciones%20Fanzine%20Mar.png" alt="Ilustraciones Fanzine Ecos de mar">
+						<div class="caption">Fanzine Ecos de Mar</div>
+					</div>
+					<div class="gallery-item">
+						<img src="https://ik.imagekit.io/Sol/images/Concurso%20cafe%20Juan%20Valdez.png" alt="Ilustración Concurso Café Juan Valdez">
+						<div class="caption">Concurso Café Juan Valdez</div>
+					</div>
+					<div class="gallery-item">
+						<img src="https://ik.imagekit.io/Sol/images/Ilustraciones%20libro%20museo.png" alt="Ilustración Libro Museo Casa de la Memoria">
+						<div class="caption">Libro Museo Casa de la Memoria</div>
+					</div>
+					<div class="gallery-item">
+						<img src="https://ik.imagekit.io/Sol/images/Chocolate%20Chocozy.png" alt="Ilustración Chocolate Chocozy">
+						<div class="caption">Chocolate Chocozy</div>
+					</div>
+					<div class="gallery-item">
+						<img src="https://ik.imagekit.io/Sol/images/Estampado%20soles%20color.png" alt="Ilustración Estampado Céntrica Soles">
+						<div class="caption">Estampado Céntrica Soles</div>
+					</div>
+					<div class="gallery-item">
+						<img src="https://ik.imagekit.io/Sol/images/Bandana%20Dragones.png" alt="Ilustración Bandana Dragones">
+						<div class="caption">Bandana Dragones</div>
+					</div>
+				</div>
+			<!-- lightbox modal -->
+			<div class="lightbox" id="lightbox">
+				<div class="lightbox-content">
+					<button class="lightbox-close" aria-label="Cerrar">&times;</button>
+					<img src="" alt="" id="lightbox-img" />
+					<div class="lightbox-title" id="lightbox-title"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Final CTA Section -->
+			<section class="final-section" id="contact">
+				<div class="final-content">
+					<h2>¡Conectemos!</h2>
+					<p>
+						Si tienes un proyecto en mente o quieres colaborar, no dudes en contactarme.
+					</p>
+					<a href="mailto: sofialondono272000@gmail.com" class="cta-button">Email</a>
+					<a href="https://www.linkedin.com/in/sofia-londono-913a10215/" class="cta-button">LinkedIn</a>
+					<a href="https://www.behance.net/sofialondo" class="cta-button" style="font-size: var(--font-size-sm);">Behance</a>
+				</div>
+				<!-- lightbox modal -->
+				<div class="lightbox" id="lightbox">
+					<div class="lightbox-content">
+						<button class="lightbox-close" aria-label="Cerrar">&times;</button>
+						<img src="" alt="" id="lightbox-img" />
+						<div class="lightbox-title" id="lightbox-title"></div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Scroll Progress Indicator -->
+		<div class="info-overlay">
+			<div>Progreso: <strong><span id="progress">0</span>%</strong></div>
+		</div>
+
+		<script src="./assets/js/main.js"></script>
+	<footer>
+		<div class="footer-row">
+			<p>© 2026 Sofia Londoño. Todos los derechos reservados.</p>
+		</div>
+		<div class="footer-row">
+			<a href="https://github.com/sofincas/Portfolio" target="_blank" rel="noopener" aria-label="Ver proyecto en Github">Repositorio GitHub</a>
+		</div>
+	</footer>
+	</body>
+</html>
